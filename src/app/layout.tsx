@@ -18,6 +18,7 @@ import { UserProvider } from '@auth0/nextjs-auth0/client';
 export default function RootLayout({
   children,
 }: {
+  //this is the type of the children prop
   children: React.ReactNode;
 }) {
   const [loading, setLoading] = useState<boolean>(true);
